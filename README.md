@@ -1,9 +1,9 @@
 # Exercícios Básicos em C++
 
-Este repositório reúne exercícios desenvolvidos durante curso técnico em informática,
-com foco em lógica de programação e fundamentos da linguagem C++.
-Os programas têm como objetivo praticar entrada e saída de dados, operações matemáticas
-e manipulação de números inteiros.
+Repositório com exercícios desenvolvidos durante curso técnico em informática,
+voltados para a prática de lógica de programação e fundamentos da linguagem C++.
+Os programas abordam operações matemáticas, manipulação de números e simulações simples
+do mundo real.
 
 ---
 
@@ -12,25 +12,23 @@ e manipulação de números inteiros.
 Para compilar e executar os programas, é necessário:
 
 - Compilador C++ (GCC, MinGW, MSVC ou similar)
-- Ambiente de desenvolvimento ou terminal
-- Conhecimentos básicos de linha de comando (opcional)
+- Terminal ou IDE para execução
+- Conhecimentos básicos de programação (variáveis, operadores e entrada/saída)
 
 ---
 
-## 📂 Exercícios
+## 📂 Exercícios (do mais simples ao mais completo)
 
 ### 1️⃣ Sucessor e Antecessor
 📄 Arquivo: `sucessor_antecessor.cpp`
 
 **Descrição:**  
-Programa que recebe um número inteiro digitado pelo usuário e calcula:
-- o antecessor (número anterior)
-- o sucessor (número posterior)
+Recebe um número inteiro digitado pelo usuário e calcula seu antecessor e sucessor.
 
 **Conceitos praticados:**
+- Variáveis inteiras
 - Entrada e saída de dados
 - Operações aritméticas básicas
-- Uso de variáveis inteiras
 
 ---
 
@@ -38,8 +36,7 @@ Programa que recebe um número inteiro digitado pelo usuário e calcula:
 📄 Arquivo: `inversao_numero.cpp`
 
 **Descrição:**  
-Programa que recebe um número inteiro de três dígitos e realiza a inversão
-da ordem dos seus algarismos.
+Recebe um número inteiro de três dígitos e realiza a inversão da ordem de seus algarismos.
 
 Exemplo:  
 Entrada: `123`  
@@ -57,20 +54,31 @@ Saída: `321`
 📄 Arquivo: `calculo_retangulo.cpp`
 
 **Descrição:**  
-Programa que recebe os valores da base e da altura de um retângulo e calcula:
-- perímetro
+Recebe a base e a altura de um retângulo e calcula:
 - área
+- perímetro
 - diagonal
 
 **Conceitos praticados:**
-- Operações matemáticas
-- Uso de fórmulas geométricas
-- Biblioteca `<cmath>` para cálculos
-- Organização de cálculos no código
+- Fórmulas matemáticas
+- Operações geométricas
+- Uso da biblioteca `<cmath>`
 
 ---
 
-## ▶️ Como executar
+### 4️⃣ Cálculo de Salário
+📄 Arquivo: `calculo_salario.cpp`
 
-1. Clone o repositório ou faça o download dos arquivos
-2. Compile o arquivo desejado usando um compilador C++
+**Descrição:**  
+Simula o cálculo de salário de um trabalhador com base em:
+- horas trabalhadas
+- valor da hora
+- percentual de desconto
+
+O programa calcula o salário bruto, o desconto aplicado e o salário líquido.
+
+**Conceitos praticados:**
+- Variáveis do tipo `float`
+- Porcentagem
+- Cálculos financeiros básicos
+- Simulação de situação real
