@@ -2,8 +2,8 @@
 
 Repositório com exercícios desenvolvidos durante curso técnico em informática,
 voltados para a prática de lógica de programação e fundamentos da linguagem C++.
-Os programas abordam operações matemáticas, manipulação de números e simulações simples
-do mundo real.
+Os programas abordam operações matemáticas, manipulação de números e simulações
+simples do mundo real, mostrando evolução gradual de aprendizado.
 
 ---
 
@@ -66,7 +66,21 @@ Recebe a base e a altura de um retângulo e calcula:
 
 ---
 
-### 4️⃣ Cálculo de Salário
+### 4️⃣ Diagonal de Paralelepípedo
+📄 Arquivo: `diagonal_paralelepipedo.cpp`
+
+**Descrição:**  
+Recebe os valores dos três lados de um paralelepípedo e calcula a diagonal espacial
+utilizando o Teorema de Pitágoras.
+
+**Conceitos praticados:**
+- Geometria espacial
+- Operações matemáticas
+- Biblioteca `<cmath>`
+
+---
+
+### 5️⃣ Cálculo de Salário
 📄 Arquivo: `calculo_salario.cpp`
 
 **Descrição:**  
@@ -82,3 +96,10 @@ O programa calcula o salário bruto, o desconto aplicado e o salário líquido.
 - Porcentagem
 - Cálculos financeiros básicos
 - Simulação de situação real
+
+---
+
+## ▶️ Como executar
+
+1. Escolha o arquivo desejado
+2. Compile utilizando um compilador C++
